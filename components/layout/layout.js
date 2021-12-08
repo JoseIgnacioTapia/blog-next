@@ -1,6 +1,6 @@
 import MainNavigation from './main-navigation';
 
-function Layout({ props }) {
+function Layout(props) {
   return (
     <>
       <MainNavigation />
