@@ -6,7 +6,7 @@ function handler(req, res) {
 
     if (
       !email ||
-      !email.include('@') ||
+      !email.includes('@') ||
       !name ||
       name.trim() === '' ||
       !message ||
